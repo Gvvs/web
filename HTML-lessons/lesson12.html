@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/lesson12.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <h1>Living Things</h1>
+  <h2>Animals</h2>
+  <p class="details">A whole bunch of animals are included in the animal kingdom. You'd need an ark to hold them all.</p>
+  <script>
+    let alphaString="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let example1 = 5 === 5;
+    let example2 = 5 == '5';
+    let example3 = 6 != '6';
+    let example4 = 7 !== '7';
+    var putHere = document.getElementsByTagName('p')[0];
+    var hugeString="";
+    for (var i = 0; i < 10000; i++) {
+      randNumber=Math.round(Math.random()*25);
+      hugeString=hugeString+alphaString[randNumber]+' ';
+      }
+
+      var textnode = document.createTextNode(hugeString);
+      putHere.appendChild(textnode);
+      document.getElementsByTagName('p')[0].appendChild(node);
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+body {
+  background-size: 800px 800px;
+  background-image: url('../img/242.jpg');
+  background-repeat: repeat;
+}
+header {
+  background-color:gray;
+  opacity:.2;
+}
+header span{opacity:1;}

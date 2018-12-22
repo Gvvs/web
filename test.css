@@ -1,0 +1,23 @@
+.card{
+	font-family:Century Gothic;
+	color:darkred;
+	background-color:tan;
+	min-height:60px;
+	max-width:300px;
+	border-radius:8px;
+	padding:3px;
+/*	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.card::after {
+    content: '';
+    position: relative;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+	
+}

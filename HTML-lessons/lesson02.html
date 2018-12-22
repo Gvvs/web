@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lesson 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/lesson02.css">
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <input type="number" name="quantity" step="3" min="20" max="300" placeholder="Pick a number">
+        <br>
+        <input class="slider" id="myRange" type="range" name="temperature" min="15" max="25" step="0.5" value="18.5">
+        <br>
+        <div>
+        <label for="email_address">Email address</label>
+        <input type="email" placeholder="you@somewhere.com" name="email_address" id="email_address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Valid email address">
+        </div>
+        <br>
+        <h1>Custom Range Slider</h1>
+        <p>Drag the slider to display the current value.</p>
+
+        <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="foo">
+        <p>Value: <span id="demo"></span></p>
+        </div>
+        <br>
+        <button id="hooty" onclick="myFunction()">Try it</button>
+        <br>
+        <input name="fruit" list="fruit_name" placeholder="pick a fruit">
+
+            <br>
+        <video src="img/2018-05-0711-25-29.mp4" controls poster="./img/vlcsnap-2018-05-07-11h29m51s973.png"></video>
+            <br>
+        <script src="js/lesson02.js" defer></script>
+        <datalist id="fruit_name">
+            <option value="apple">
+            <option value="apricot">
+            <option value="avocado">
+            <option value="banana">
+            <option value="blackberry">
+            <option value="blackcurrant">
+            <option value="blueberry">
+            <option value="boysenberry">
+            <option value="crab apples">
+            <option value="cherry">
+            <option value="coconut">
+            <option value="cranberry">
+            <option value="custard apple">
+            <option value="date">
+            <option value="dragonfruit">
+            <option value="durian">
+            <option value="fig">
+            <option value="gooseberry">
+            <option value="grape">
+            <option value="raisin">
+            <option value="grapefruit">
+            <option value="guava">
+            <option value="honeyberry">
+            <option value="huckleberry">
+            <option value="jackfruit">
+            <option value="jujube">
+            <option value="juniper berry">
+            <option value="kiwifruit">
+            <option value="kumquat">
+            <option value="lemon">
+            <option value="lime">
+            <option value="loquat">
+            <option value="longan">
+            <option value="lychee">
+            <option value="mango">
+            <option value="mangosteen">
+            <option value="melon">
+            <option value="cantaloupe">
+            <option value="honeydew">
+            <option value="watermelon">
+            <option value="mulberry">
+            <option value="nectarine">
+            <option value="olive">
+            <option value="orange">
+            <option value="blood orange">
+            <option value="clementine">
+            <option value="mandarine">
+            <option value="tangerine">
+            <option value="papaya">
+            <option value="passionfruit">
+            <option value="peach">
+            <option value="pear">
+            <option value="persimmon">
+            <option value="plantain">
+            <option value="plum">
+            <option value="prune">
+            <option value="pineapple">
+            <option value="pomegranate">
+            <option value="pomelo">
+            <option value="purple mangosteen">
+            <option value="quince">
+            <option value="raspberry">
+            <option value="rambutan">
+            <option value="redcurrant">
+            <option value="soursop">
+            <option value="star fruit">
+            <option value="gonzoberry">
+            <option value="strawberry">
+            <option value="tamarind">
+            <option value="ugli fruit">
+        </datalist>
+    </body>
+</html>

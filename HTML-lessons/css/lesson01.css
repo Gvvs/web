@@ -1,0 +1,36 @@
+
+body{
+    width:50%;
+
+}
+.clr {
+    clear:both; /* ClearFix */
+}
+.block{
+    min-height: 6cm;
+    float:left;
+    width:33.3%;
+    border:1px solid #888;
+    padding:10px;
+    box-sizing: border-box;
+    
+}
+#main-block{
+    float:left;
+    width:70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    color:white;
+    float:right;
+    width:30%;
+    background-color:#333;
+    padding:15px;
+    box-sizing: border-box;
+
+}
+ol {
+
+    list-style: symbols(cyclic "\1F0A1" "\1F0A2" "\1F0A3"); // Link Symbol
+}

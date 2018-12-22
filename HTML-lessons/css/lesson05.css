@@ -1,0 +1,82 @@
+body{
+  padding:5px;
+  max-width:1300px;
+  font-family:sans-serif;
+  background-color: tan;
+/*   background-image:
+    radial-gradient(
+      rgb(248, 199, 2),
+      #803a04
+    ); */
+}
+div {
+
+
+}
+p{
+  padding:4px;
+}
+.form-row{
+  padding: 10px 0;
+  display: flex;
+
+}
+
+.form-row label {
+  padding-right:10px;
+}
+
+.form-row input {
+  flex:1;
+
+
+}
+.column-layout{
+  max-width:1300px;
+  background-color:beige;
+  margin:40px auto 0 auto;
+  line-height:1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+.main-column{
+flex:3;
+order:2;
+}
+.sidebar-one{
+flex:1;
+order:1;
+}
+.sidebar-two{
+flex:1;
+order:3;
+}
+.callout-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top:6px;
+}
+.callout{
+  padding:20px;
+  margin-bottom:20px;
+  box-sizing: border-box;
+  flex-basis:30%;
+}
+.callout:nth-child(1){background-color:#c0dbe2;}
+.callout:nth-child(2){background-color:#cdf1c3;}
+.callout:nth-child(3){background-color:#ccb9da;}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:darkseagreen;
+}
+
+/* IE 6 */
+* html #footer {
+  position:absolute;
+  top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
